@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /Users/evesquare/apps/-p-
+. ./venv/bin/activate
+image_path=$1
+python main.py $image_path
