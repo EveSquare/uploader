@@ -2,6 +2,9 @@
 
 ## セットアップ
 ```
+virtualenv .venv
+. venv/bin/activate
+pip instal -r requirements.txt
 export PATH = $PATH:＜クローンしたリポジトリのディレクトリ＞
 ```
 
